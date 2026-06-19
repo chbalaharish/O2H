@@ -39,7 +39,7 @@ export default function Register() {
     setLoading(true);
     try {
       await AuthService.register(username.trim(), password);
-      navigate('/', { state: { message: 'Registration successful! Welcome to ProjectPortal.' } });
+      navigate('/', { state: { message: 'Registration successful! Welcome to Workload.' } });
     } catch (err) {
       setError(err.response?.data?.error || 'Registration failed. Please try again.');
     } finally {

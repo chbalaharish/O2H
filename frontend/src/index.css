@@ -3,33 +3,33 @@
 :root {
   --font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
-  /* Light Mode Palette */
-  --bg-primary: #f8fafc;
+  /* Light Mode Palette - Workload Emerald Green Theme */
+  --bg-primary: #f3f7f5;
   --bg-secondary: #ffffff;
-  --bg-tertiary: #f1f5f9;
+  --bg-tertiary: #e9f0ec;
   
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-tertiary: #94a3b8;
+  --text-primary: #0e1b15;
+  --text-secondary: #43534c;
+  --text-tertiary: #8fa097;
   
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
-  --primary-light: rgba(99, 102, 241, 0.1);
+  --primary-color: #00b074;
+  --primary-hover: #009662;
+  --primary-light: rgba(0, 176, 116, 0.08);
   
-  --success-color: #10b981;
-  --success-light: rgba(16, 185, 129, 0.1);
-  --warning-color: #f59e0b;
-  --warning-light: rgba(245, 158, 11, 0.1);
-  --info-color: #0ea5e9;
-  --info-light: rgba(14, 165, 233, 0.1);
-  --danger-color: #ef4444;
-  --danger-light: rgba(239, 68, 68, 0.1);
+  --success-color: #00b074;
+  --success-light: rgba(0, 176, 116, 0.08);
+  --warning-color: #ff9f43;
+  --warning-light: rgba(255, 159, 67, 0.1);
+  --info-color: #20c997;
+  --info-light: rgba(32, 201, 151, 0.1);
+  --danger-color: #ff4d4f;
+  --danger-light: rgba(255, 77, 79, 0.1);
   
-  --border-color: #e2e8f0;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-  --shadow-lg: 0 10px 15px -3px rgba(99, 102, 241, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
-  --shadow-card-hover: 0 20px 25px -5px rgba(99, 102, 241, 0.1), 0 10px 10px -5px rgba(99, 102, 241, 0.04);
+  --border-color: #e1ebd6;
+  --shadow-sm: 0 1px 3px rgba(0, 176, 116, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 176, 116, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 176, 116, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-card-hover: 0 20px 25px -5px rgba(0, 176, 116, 0.08), 0 10px 10px -5px rgba(0, 176, 116, 0.03);
   
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -41,19 +41,19 @@
 
 /* Dark Mode Palette */
 body.dark-mode {
-  --bg-primary: #090d16;
-  --bg-secondary: #111827;
-  --bg-tertiary: #1f2937;
+  --bg-primary: #0a0e14;
+  --bg-secondary: #111720;
+  --bg-tertiary: #19212d;
   
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-tertiary: #64748b;
+  --text-primary: #f1f7f4;
+  --text-secondary: #92a49b;
+  --text-tertiary: #5e7066;
   
-  --primary-color: #818cf8;
-  --primary-hover: #6366f1;
-  --primary-light: rgba(129, 140, 248, 0.15);
+  --primary-color: #00d28b;
+  --primary-hover: #00b074;
+  --primary-light: rgba(0, 210, 139, 0.12);
   
-  --border-color: #1f2937;
+  --border-color: #1c2735;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);

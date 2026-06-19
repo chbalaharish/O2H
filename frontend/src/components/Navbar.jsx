@@ -16,11 +16,13 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
-          <path d="m9 12 2 2 4-4"></path>
+        <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* Left green side */}
+          <path d="M50 10C27.9 10 10 27.9 10 50C10 65.5 18.8 79 31.7 85.7L85.7 31.7C79 18.8 65.5 10 50 10Z" fill="#00b074" />
+          {/* Right orange/yellow side */}
+          <path d="M50 90C72.1 90 90 72.1 90 50C90 34.5 81.2 21 68.3 14.3L14.3 68.3C21 81.2 34.5 90 50 90Z" fill="#ff9f43" />
         </svg>
-        <span>ProjectPortal</span>
+        <span style={{ fontWeight: '700', fontSize: '1.5rem', letterSpacing: '-0.5px' }}>Workload</span>
       </Link>
 
       <div className="navbar-actions">
